@@ -12,6 +12,7 @@
 		171EA26620BE19BC00EC672B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171EA26520BE19BC00EC672B /* Assets.xcassets */; };
 		171EA26920BE19BC00EC672B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171EA26720BE19BC00EC672B /* Main.storyboard */; };
 		171EA27220BE42F000EC672B /* shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EA27120BE42F000EC672B /* shell.swift */; };
+		17247FD820BE57F500FDD7CF /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 17247FD720BE57F500FDD7CF /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		171EA26A20BE19BC00EC672B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		171EA26B20BE19BC00EC672B /* YoutubeDownload.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YoutubeDownload.entitlements; sourceTree = "<group>"; };
 		171EA27120BE42F000EC672B /* shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shell.swift; sourceTree = "<group>"; };
+		17247FD720BE57F500FDD7CF /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		17C9B50520BE540700B12B4C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +42,8 @@
 		171EA25520BE19B500EC672B = {
 			isa = PBXGroup;
 			children = (
+				17247FD720BE57F500FDD7CF /* screenshot.png */,
+				17C9B50520BE540700B12B4C /* README.md */,
 				171EA26020BE19B500EC672B /* YoutubeDownload */,
 				171EA25F20BE19B500EC672B /* Products */,
 			);
@@ -124,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17247FD820BE57F500FDD7CF /* screenshot.png in Resources */,
 				171EA26620BE19BC00EC672B /* Assets.xcassets in Resources */,
 				171EA26920BE19BC00EC672B /* Main.storyboard in Resources */,
 			);

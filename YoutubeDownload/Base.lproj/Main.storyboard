@@ -686,7 +686,7 @@
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
                     <window key="window" title="YouTubeDownload" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" fullSizeContentView="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
@@ -707,11 +707,15 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="YoutubeDownload" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="576" height="616"/>
+                        <rect key="frame" x="0.0" y="0.0" width="576" height="629"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <visualEffectView appearanceType="vibrantLight" fixedFrame="YES" blendingMode="behindWindow" material="light" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="obB-oE-LDV">
+                                <rect key="frame" x="-20" y="-71" width="722" height="727"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </visualEffectView>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TfX-OE-Ggl">
-                                <rect key="frame" x="98" y="574" width="458" height="22"/>
+                                <rect key="frame" x="98" y="576" width="458" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Video URL" drawsBackground="YES" id="LWF-sW-vkM">
                                     <font key="font" metaFont="system"/>
@@ -720,7 +724,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EBH-RY-IJj">
-                                <rect key="frame" x="20" y="577" width="72" height="17"/>
+                                <rect key="frame" x="20" y="579" width="72" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Video URL:" id="jss-QU-rZ0">
                                     <font key="font" metaFont="system"/>
@@ -729,7 +733,7 @@
                                 </textFieldCell>
                             </textField>
                             <box fixedFrame="YES" title="Video" translatesAutoresizingMaskIntoConstraints="NO" id="CeS-mF-Wuw">
-                                <rect key="frame" x="19" y="360" width="540" height="200"/>
+                                <rect key="frame" x="19" y="362" width="540" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <view key="contentView" id="hHn-tK-Q3W">
                                     <rect key="frame" x="2" y="2" width="536" height="183"/>
@@ -818,7 +822,7 @@
                                 </view>
                             </box>
                             <box fixedFrame="YES" title="Optional" translatesAutoresizingMaskIntoConstraints="NO" id="wMT-rK-umJ">
-                                <rect key="frame" x="19" y="239" width="540" height="117"/>
+                                <rect key="frame" x="19" y="241" width="540" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <view key="contentView" id="2D7-c1-0sa">
                                     <rect key="frame" x="2" y="2" width="536" height="100"/>
@@ -860,7 +864,7 @@
                                 </view>
                             </box>
                             <box fixedFrame="YES" title="Post Processing" translatesAutoresizingMaskIntoConstraints="NO" id="VjR-te-m3V">
-                                <rect key="frame" x="19" y="46" width="540" height="189"/>
+                                <rect key="frame" x="19" y="48" width="540" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <view key="contentView" id="4gz-f5-csT">
                                     <rect key="frame" x="2" y="2" width="536" height="172"/>
@@ -920,10 +924,6 @@
                                                 </menu>
                                             </popUpButtonCell>
                                         </popUpButton>
-                                        <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="G9x-GP-382">
-                                            <rect key="frame" x="20" y="102" width="496" height="5"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        </box>
                                         <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="sJS-kz-llp">
                                             <rect key="frame" x="21" y="71" width="495" height="5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -952,11 +952,15 @@
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
                                         </button>
+                                        <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="G9x-GP-382">
+                                            <rect key="frame" x="20" y="29" width="496" height="156"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        </box>
                                     </subviews>
                                 </view>
                             </box>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DCh-Wz-j2t">
-                                <rect key="frame" x="14" y="2" width="548" height="32"/>
+                                <rect key="frame" x="14" y="4" width="548" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Process" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fbZ-t7-wfz">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -990,7 +994,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="123" y="828"/>
+            <point key="canvasLocation" x="123" y="834.5"/>
         </scene>
     </scenes>
 </document>
