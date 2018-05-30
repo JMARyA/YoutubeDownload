@@ -27,6 +27,7 @@ class ViewController: NSViewController, NSOpenSavePanelDelegate {
     @IBOutlet weak var embedSubtitlesCheckBox: NSButton!
     @IBOutlet weak var embedThumbnailCheckBox: NSButton!
     @IBOutlet weak var embedMetadataCheckBox: NSButton!
+    @IBOutlet weak var skipVideoDownloadCheckBox: NSButton!
     
     
 
@@ -112,6 +113,9 @@ class ViewController: NSViewController, NSOpenSavePanelDelegate {
         }
         if (self.getSubtitlesCheckBox.state == NSControl.StateValue.on) {
             cmd += " --write-sub"
+        }
+        if (self.skipVideoDownloadCheckBox.state == NSControl.StateValue.on) {
+            cmd += " --skip-download"
         }
         
         if (self.extractAudioCheckBox.state == NSControl.StateValue.on) {
