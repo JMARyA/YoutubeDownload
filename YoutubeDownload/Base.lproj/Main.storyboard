@@ -933,7 +933,7 @@
                                             </popUpButtonCell>
                                         </popUpButton>
                                         <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="sJS-kz-llp">
-                                            <rect key="frame" x="21" y="71" width="495" height="5"/>
+                                            <rect key="frame" x="21" y="71" width="495" height="66"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         </box>
                                         <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GtK-YO-Tam">
@@ -961,7 +961,7 @@
                                             </buttonCell>
                                         </button>
                                         <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="G9x-GP-382">
-                                            <rect key="frame" x="20" y="29" width="496" height="5"/>
+                                            <rect key="frame" x="21" y="71" width="495" height="5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         </box>
                                     </subviews>
