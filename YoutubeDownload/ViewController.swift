@@ -52,6 +52,8 @@ class ViewController: NSViewController, NSOpenSavePanelDelegate {
         // Update the view, if already loaded.
         }
     }
+
+    
     
     func generateCommand() -> String {
         //var cmd = "/usr/local/bin/youtube-dl"
