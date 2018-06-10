@@ -34,6 +34,8 @@ class ViewController: NSViewController, NSOpenSavePanelDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         self.audioFormatButton.removeAllItems()
         self.audioFormatButton.addItems(withTitles: ["Best Format", "AAC", "FLAC", "MP3", "M4A", "OPUS", "VORBIS", "WAV"])
         self.videoFormatButton.removeAllItems()
