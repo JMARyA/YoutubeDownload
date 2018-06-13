@@ -10,6 +10,8 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+    
+    var command: String = ""
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
     }

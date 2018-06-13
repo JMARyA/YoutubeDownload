@@ -30,6 +30,8 @@ class ViewController: NSViewController, NSOpenSavePanelDelegate {
     @IBOutlet weak var skipVideoDownloadCheckBox: NSButton!
     
     
+    let appDelegate = NSApplication.shared.delegate as! AppDelegate
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,12 +39,12 @@ class ViewController: NSViewController, NSOpenSavePanelDelegate {
         
         
         self.audioFormatButton.removeAllItems()
-        self.audioFormatButton.addItems(withTitles: ["Best Format", "AAC", "FLAC", "MP3", "M4A", "OPUS", "VORBIS", "WAV"])
+        self.audioFormatButton.addItems(withTitles: [NSLocalizedString("bestformat", tableName: nil, bundle: Bundle.main, value: "Best Format", comment: "Best Format"), "AAC", "FLAC", "MP3", "M4A", "OPUS", "VORBIS", "WAV"])
         self.videoFormatButton.removeAllItems()
         self.videoFormatButton.addItems(withTitles: ["MP4", "FLV", "OGG", "WEBM", "MKV", "AVI"])
         
         self.qualityButton.removeAllItems()
-        self.qualityButton.addItems(withTitles: ["Best", "2160p", "1440p", "1080p", "720p", "480p", "360p", "240p", "144p"])
+        self.qualityButton.addItems(withTitles: [NSLocalizedString("best", tableName: nil, bundle: Bundle.main, value: "Best", comment: "Best"), "2160p", "1440p", "1080p", "720p", "480p", "360p", "240p", "144p"])
         
         self.downloadPathDisplay.pathStyle = NSPathControl.Style.popUp
         self.downloadPathDisplay.url = URL(string: getDownloadsDirectory())
@@ -155,7 +157,8 @@ class ViewController: NSViewController, NSOpenSavePanelDelegate {
     
     
     @IBAction func processButton(_ sender: Any) {
-        print(shell(input: generateCommand()))
+        self.appDelegate.command = self.generateCommand()
+        performSegue(withIdentifier: "outputView", sender: nil)
     }
     
     func getDownloadsDirectory() -> String {

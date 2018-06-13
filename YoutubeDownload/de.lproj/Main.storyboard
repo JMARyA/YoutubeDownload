@@ -1027,79 +1027,11 @@
                         <outlet property="skipVideoDownloadCheckBox" destination="Wjh-vn-BXz" id="Vi8-Z4-eBT"/>
                         <outlet property="videoFormatButton" destination="7Kt-4c-Oiu" id="G68-BL-8hT"/>
                         <outlet property="videoURLTextField" destination="TfX-OE-Ggl" id="PmG-gX-cfz"/>
-                        <segue destination="ygg-ZB-LIi" kind="show" identifier="outputView" id="jmT-JJ-iBt"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="861.5"/>
-        </scene>
-        <!--Window Controller-->
-        <scene sceneID="m4m-CV-EgK">
-            <objects>
-                <windowController id="ygg-ZB-LIi" sceneMemberID="viewController">
-                    <window key="window" title="Output" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" titlebarAppearsTransparent="YES" id="PUY-bg-rSL">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
-                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
-                        <connections>
-                            <outlet property="delegate" destination="ygg-ZB-LIi" id="Ikw-qJ-eeb"/>
-                        </connections>
-                    </window>
-                    <connections>
-                        <segue destination="pa6-9J-f3O" kind="relationship" relationship="window.shadowedContentViewController" id="4ov-Zn-5fP"/>
-                    </connections>
-                </windowController>
-                <customObject id="UQL-Ni-Cz1" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="923" y="358"/>
-        </scene>
-        <!--Output View Controller-->
-        <scene sceneID="eQo-UG-XSd">
-            <objects>
-                <viewController id="pa6-9J-f3O" customClass="OutputViewController" customModule="YoutubeDownload" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="USN-XK-U7P">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suM-5w-p5n">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                                <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="YEU-PL-3xn">
-                                    <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="l8e-zP-yHp">
-                                            <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="480" height="270"/>
-                                            <size key="maxSize" width="480" height="10000000"/>
-                                            <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        </textView>
-                                    </subviews>
-                                </clipView>
-                                <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="Lxc-SX-nGf">
-                                    <rect key="frame" x="464" y="0.0" width="16" height="270"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </scroller>
-                            </scrollView>
-                        </subviews>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="suM-5w-p5n" secondAttribute="bottom" id="2I1-bT-QAC"/>
-                            <constraint firstAttribute="trailing" secondItem="suM-5w-p5n" secondAttribute="trailing" id="Aqg-TL-il6"/>
-                            <constraint firstItem="suM-5w-p5n" firstAttribute="leading" secondItem="USN-XK-U7P" secondAttribute="leading" id="p4d-1u-Pdt"/>
-                            <constraint firstItem="suM-5w-p5n" firstAttribute="top" secondItem="USN-XK-U7P" secondAttribute="top" id="wB4-Aq-VnH"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="output" destination="suM-5w-p5n" id="bGP-TN-GeK"/>
-                    </connections>
-                </viewController>
-                <customObject id="q7k-ke-0Gc" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="923" y="830"/>
+            <point key="canvasLocation" x="75" y="862"/>
         </scene>
     </scenes>
 </document>
