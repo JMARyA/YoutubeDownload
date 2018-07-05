@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1711106720EE40F100E999A9 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1711106620EE40F100E999A9 /* screen.png */; };
-		1711106920EE411F00E999A9 /* screenshotdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1711106820EE411F00E999A9 /* screenshotdark.png */; };
+		1711106B20EE419800E999A9 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1711106A20EE419800E999A9 /* screen.png */; };
+		1711106D20EE41A600E999A9 /* screenshotdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1711106C20EE41A600E999A9 /* screenshotdark.png */; };
 		171EA26220BE19B500EC672B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EA26120BE19B500EC672B /* AppDelegate.swift */; };
 		171EA26420BE19B500EC672B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EA26320BE19B500EC672B /* ViewController.swift */; };
 		171EA26620BE19BC00EC672B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171EA26520BE19BC00EC672B /* Assets.xcassets */; };
@@ -54,8 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1711106620EE40F100E999A9 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = SOURCE_ROOT; };
-		1711106820EE411F00E999A9 /* screenshotdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshotdark.png; path = ../../../Downloads/screenshotdark.png; sourceTree = "<group>"; };
+		1711106A20EE419800E999A9 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
+		1711106C20EE41A600E999A9 /* screenshotdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshotdark.png; sourceTree = "<group>"; };
 		171EA25E20BE19B500EC672B /* YoutubeDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		171EA26120BE19B500EC672B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		171EA26320BE19B500EC672B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 			children = (
 				17A2043720ED63A900726658 /* docs */,
 				17B8AD8620CD5E9F007D71A0 /* screenshot.png */,
-				1711106820EE411F00E999A9 /* screenshotdark.png */,
+				1711106C20EE41A600E999A9 /* screenshotdark.png */,
 				17C9B50520BE540700B12B4C /* README.md */,
 				171EA26020BE19B500EC672B /* YoutubeDownload */,
 				17D9DC0A20ED3D02004021D3 /* Download With YoutubeDownload */,
@@ -152,7 +152,7 @@
 				17A2043820ED63B800726658 /* index.html */,
 				17A2043C20ED684600726658 /* features.html */,
 				17A2043E20ED6AAD00726658 /* changelog.html */,
-				1711106620EE40F100E999A9 /* screen.png */,
+				1711106A20EE419800E999A9 /* screen.png */,
 			);
 			path = docs;
 			sourceTree = "<group>";
@@ -271,8 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A2043F20ED6AAD00726658 /* changelog.html in Resources */,
-				1711106920EE411F00E999A9 /* screenshotdark.png in Resources */,
-				1711106720EE40F100E999A9 /* screen.png in Resources */,
+				1711106D20EE41A600E999A9 /* screenshotdark.png in Resources */,
+				1711106B20EE419800E999A9 /* screen.png in Resources */,
 				1785557020D1A7C400DCEF84 /* Localizable.strings in Resources */,
 				171EA26620BE19BC00EC672B /* Assets.xcassets in Resources */,
 				17A2043B20ED643500726658 /* main.css in Resources */,
