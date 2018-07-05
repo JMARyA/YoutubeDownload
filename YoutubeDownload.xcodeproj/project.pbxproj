@@ -107,7 +107,7 @@
 		171EA25520BE19B500EC672B = {
 			isa = PBXGroup;
 			children = (
-				17A2043720ED63A900726658 /* Site */,
+				17A2043720ED63A900726658 /* docs */,
 				17B8AD8620CD5E9F007D71A0 /* screenshot.png */,
 				17B8AD8220CD5E5E007D71A0 /* screenshotdark.png */,
 				17C9B50520BE540700B12B4C /* README.md */,
@@ -142,7 +142,7 @@
 			path = YoutubeDownload;
 			sourceTree = "<group>";
 		};
-		17A2043720ED63A900726658 /* Site */ = {
+		17A2043720ED63A900726658 /* docs */ = {
 			isa = PBXGroup;
 			children = (
 				1728458520EE3E1B005AAA26 /* img.dmg */,
@@ -151,7 +151,7 @@
 				17A2043C20ED684600726658 /* features.html */,
 				17A2043E20ED6AAD00726658 /* changelog.html */,
 			);
-			path = Site;
+			path = docs;
 			sourceTree = "<group>";
 		};
 		17D9DC0720ED3D02004021D3 /* Frameworks */ = {
