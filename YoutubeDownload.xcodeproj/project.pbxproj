@@ -11,12 +11,46 @@
 		171EA26420BE19B500EC672B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EA26320BE19B500EC672B /* ViewController.swift */; };
 		171EA26620BE19BC00EC672B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171EA26520BE19BC00EC672B /* Assets.xcassets */; };
 		171EA26920BE19BC00EC672B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171EA26720BE19BC00EC672B /* Main.storyboard */; };
-		171EA27220BE42F000EC672B /* shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EA27120BE42F000EC672B /* shell.swift */; };
 		1785557020D1A7C400DCEF84 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1785556E20D1A7C400DCEF84 /* Localizable.strings */; };
 		1785557920D1AA1900DCEF84 /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1785557820D1AA1900DCEF84 /* OutputViewController.swift */; };
+		17A2043920ED63B800726658 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 17A2043820ED63B800726658 /* index.html */; };
+		17A2043B20ED643500726658 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 17A2043A20ED643400726658 /* main.css */; };
+		17A2043D20ED684600726658 /* features.html in Resources */ = {isa = PBXBuildFile; fileRef = 17A2043C20ED684600726658 /* features.html */; };
+		17A2043F20ED6AAD00726658 /* changelog.html in Resources */ = {isa = PBXBuildFile; fileRef = 17A2043E20ED6AAD00726658 /* changelog.html */; };
 		17B8AD8420CD5E5F007D71A0 /* screenshotdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B8AD8220CD5E5E007D71A0 /* screenshotdark.png */; };
 		17B8AD8720CD5E9F007D71A0 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B8AD8620CD5E9F007D71A0 /* screenshot.png */; };
+		17D9DC0920ED3D02004021D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D9DC0820ED3D02004021D3 /* Cocoa.framework */; };
+		17D9DC0C20ED3D03004021D3 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D9DC0B20ED3D02004021D3 /* SafariExtensionHandler.swift */; };
+		17D9DC0E20ED3D03004021D3 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D9DC0D20ED3D03004021D3 /* SafariExtensionViewController.swift */; };
+		17D9DC1120ED3D03004021D3 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D9DC0F20ED3D03004021D3 /* SafariExtensionViewController.xib */; };
+		17D9DC1420ED3D03004021D3 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 17D9DC1320ED3D03004021D3 /* script.js */; };
+		17D9DC1620ED3D03004021D3 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 17D9DC1520ED3D03004021D3 /* ToolbarItemIcon.pdf */; };
+		17D9DC1A20ED3D03004021D3 /* Download With YoutubeDownload.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 17D9DC0620ED3D02004021D3 /* Download With YoutubeDownload.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17D9DC1820ED3D03004021D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171EA25620BE19B500EC672B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D9DC0520ED3D02004021D3;
+			remoteInfo = "Download With YoutubeDownload";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17D9DC1E20ED3D03004021D3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				17D9DC1A20ED3D03004021D3 /* Download With YoutubeDownload.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		171EA25E20BE19B500EC672B /* YoutubeDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,16 +60,29 @@
 		171EA26820BE19BC00EC672B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		171EA26A20BE19BC00EC672B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		171EA26B20BE19BC00EC672B /* YoutubeDownload.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YoutubeDownload.entitlements; sourceTree = "<group>"; };
-		171EA27120BE42F000EC672B /* shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shell.swift; sourceTree = "<group>"; };
+		1728458520EE3E1B005AAA26 /* img.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = img.dmg; sourceTree = "<group>"; };
 		1785556B20D1A3D700DCEF84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		1785556D20D1A49B00DCEF84 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		1785556F20D1A7C400DCEF84 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1785557120D1A86000DCEF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1785557720D1A8A700DCEF84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1785557820D1AA1900DCEF84 /* OutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
+		17A2043820ED63B800726658 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		17A2043A20ED643400726658 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		17A2043C20ED684600726658 /* features.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = features.html; sourceTree = "<group>"; };
+		17A2043E20ED6AAD00726658 /* changelog.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = changelog.html; sourceTree = "<group>"; };
 		17B8AD8220CD5E5E007D71A0 /* screenshotdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshotdark.png; sourceTree = "<group>"; };
 		17B8AD8620CD5E9F007D71A0 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		17C9B50520BE540700B12B4C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		17D9DC0620ED3D02004021D3 /* Download With YoutubeDownload.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Download With YoutubeDownload.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D9DC0820ED3D02004021D3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		17D9DC0B20ED3D02004021D3 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		17D9DC0D20ED3D03004021D3 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		17D9DC1020ED3D03004021D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		17D9DC1220ED3D03004021D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D9DC1320ED3D03004021D3 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		17D9DC1520ED3D03004021D3 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		17D9DC1720ED3D03004021D3 /* Download_With_YoutubeDownload.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Download_With_YoutubeDownload.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,16 +93,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17D9DC0320ED3D02004021D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D9DC0920ED3D02004021D3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		171EA25520BE19B500EC672B = {
 			isa = PBXGroup;
 			children = (
+				17A2043720ED63A900726658 /* Site */,
 				17B8AD8620CD5E9F007D71A0 /* screenshot.png */,
 				17B8AD8220CD5E5E007D71A0 /* screenshotdark.png */,
 				17C9B50520BE540700B12B4C /* README.md */,
 				171EA26020BE19B500EC672B /* YoutubeDownload */,
+				17D9DC0A20ED3D02004021D3 /* Download With YoutubeDownload */,
+				17D9DC0720ED3D02004021D3 /* Frameworks */,
 				171EA25F20BE19B500EC672B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				171EA25E20BE19B500EC672B /* YoutubeDownload.app */,
+				17D9DC0620ED3D02004021D3 /* Download With YoutubeDownload.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,7 +133,6 @@
 				171EA26120BE19B500EC672B /* AppDelegate.swift */,
 				171EA26320BE19B500EC672B /* ViewController.swift */,
 				1785556E20D1A7C400DCEF84 /* Localizable.strings */,
-				171EA27120BE42F000EC672B /* shell.swift */,
 				171EA26520BE19BC00EC672B /* Assets.xcassets */,
 				171EA26720BE19BC00EC672B /* Main.storyboard */,
 				1785557820D1AA1900DCEF84 /* OutputViewController.swift */,
@@ -82,6 +140,40 @@
 				171EA26B20BE19BC00EC672B /* YoutubeDownload.entitlements */,
 			);
 			path = YoutubeDownload;
+			sourceTree = "<group>";
+		};
+		17A2043720ED63A900726658 /* Site */ = {
+			isa = PBXGroup;
+			children = (
+				1728458520EE3E1B005AAA26 /* img.dmg */,
+				17A2043A20ED643400726658 /* main.css */,
+				17A2043820ED63B800726658 /* index.html */,
+				17A2043C20ED684600726658 /* features.html */,
+				17A2043E20ED6AAD00726658 /* changelog.html */,
+			);
+			path = Site;
+			sourceTree = "<group>";
+		};
+		17D9DC0720ED3D02004021D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17D9DC0820ED3D02004021D3 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17D9DC0A20ED3D02004021D3 /* Download With YoutubeDownload */ = {
+			isa = PBXGroup;
+			children = (
+				17D9DC0B20ED3D02004021D3 /* SafariExtensionHandler.swift */,
+				17D9DC0D20ED3D03004021D3 /* SafariExtensionViewController.swift */,
+				17D9DC0F20ED3D03004021D3 /* SafariExtensionViewController.xib */,
+				17D9DC1220ED3D03004021D3 /* Info.plist */,
+				17D9DC1320ED3D03004021D3 /* script.js */,
+				17D9DC1520ED3D03004021D3 /* ToolbarItemIcon.pdf */,
+				17D9DC1720ED3D03004021D3 /* Download_With_YoutubeDownload.entitlements */,
+			);
+			path = "Download With YoutubeDownload";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,15 +186,34 @@
 				171EA25A20BE19B500EC672B /* Sources */,
 				171EA25B20BE19B500EC672B /* Frameworks */,
 				171EA25C20BE19B500EC672B /* Resources */,
+				17D9DC1E20ED3D03004021D3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				17D9DC1920ED3D03004021D3 /* PBXTargetDependency */,
 			);
 			name = YoutubeDownload;
 			productName = YoutubeDownload;
 			productReference = 171EA25E20BE19B500EC672B /* YoutubeDownload.app */;
 			productType = "com.apple.product-type.application";
+		};
+		17D9DC0520ED3D02004021D3 /* Download With YoutubeDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D9DC1D20ED3D03004021D3 /* Build configuration list for PBXNativeTarget "Download With YoutubeDownload" */;
+			buildPhases = (
+				17D9DC0220ED3D02004021D3 /* Sources */,
+				17D9DC0320ED3D02004021D3 /* Frameworks */,
+				17D9DC0420ED3D02004021D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Download With YoutubeDownload";
+			productName = "Download With YoutubeDownload";
+			productReference = 17D9DC0620ED3D02004021D3 /* Download With YoutubeDownload.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -110,7 +221,7 @@
 		171EA25620BE19B500EC672B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Arya;
 				TargetAttributes = {
@@ -125,6 +236,9 @@
 								enabled = 0;
 							};
 						};
+					};
+					17D9DC0520ED3D02004021D3 = {
+						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
@@ -143,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				171EA25D20BE19B500EC672B /* YoutubeDownload */,
+				17D9DC0520ED3D02004021D3 /* Download With YoutubeDownload */,
 			);
 		};
 /* End PBXProject section */
@@ -152,11 +267,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A2043F20ED6AAD00726658 /* changelog.html in Resources */,
 				1785557020D1A7C400DCEF84 /* Localizable.strings in Resources */,
 				17B8AD8420CD5E5F007D71A0 /* screenshotdark.png in Resources */,
 				171EA26620BE19BC00EC672B /* Assets.xcassets in Resources */,
+				17A2043B20ED643500726658 /* main.css in Resources */,
+				17A2043920ED63B800726658 /* index.html in Resources */,
 				171EA26920BE19BC00EC672B /* Main.storyboard in Resources */,
 				17B8AD8720CD5E9F007D71A0 /* screenshot.png in Resources */,
+				17A2043D20ED684600726658 /* features.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D9DC0420ED3D02004021D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D9DC1620ED3D03004021D3 /* ToolbarItemIcon.pdf in Resources */,
+				17D9DC1120ED3D03004021D3 /* SafariExtensionViewController.xib in Resources */,
+				17D9DC1420ED3D03004021D3 /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,14 +296,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171EA27220BE42F000EC672B /* shell.swift in Sources */,
 				1785557920D1AA1900DCEF84 /* OutputViewController.swift in Sources */,
 				171EA26420BE19B500EC672B /* ViewController.swift in Sources */,
 				171EA26220BE19B500EC672B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17D9DC0220ED3D02004021D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D9DC0E20ED3D03004021D3 /* SafariExtensionViewController.swift in Sources */,
+				17D9DC0C20ED3D03004021D3 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17D9DC1920ED3D03004021D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17D9DC0520ED3D02004021D3 /* Download With YoutubeDownload */;
+			targetProxy = 17D9DC1820ED3D03004021D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		171EA26720BE19BC00EC672B /* Main.storyboard */ = {
@@ -195,6 +340,14 @@
 				1785557720D1A8A700DCEF84 /* en */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		17D9DC0F20ED3D03004021D3 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17D9DC1020ED3D03004021D3 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -318,6 +471,7 @@
 		171EA26F20BE19BC00EC672B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -338,6 +492,7 @@
 		171EA27020BE19BC00EC672B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -351,6 +506,45 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arya.YoutubeDownload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		17D9DC1B20ED3D03004021D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Download With YoutubeDownload/Download_With_YoutubeDownload.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6J8YR3FGS;
+				INFOPLIST_FILE = "Download With YoutubeDownload/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arya.YoutubeDownload.Download-With-YoutubeDownload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		17D9DC1C20ED3D03004021D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Download With YoutubeDownload/Download_With_YoutubeDownload.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6J8YR3FGS;
+				INFOPLIST_FILE = "Download With YoutubeDownload/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arya.YoutubeDownload.Download-With-YoutubeDownload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -372,6 +566,15 @@
 			buildConfigurations = (
 				171EA26F20BE19BC00EC672B /* Debug */,
 				171EA27020BE19BC00EC672B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D9DC1D20ED3D03004021D3 /* Build configuration list for PBXNativeTarget "Download With YoutubeDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D9DC1B20ED3D03004021D3 /* Debug */,
+				17D9DC1C20ED3D03004021D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

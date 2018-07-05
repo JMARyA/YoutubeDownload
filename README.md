@@ -15,6 +15,10 @@ Install it with `brew install ffmpeg`
 ### Dark
 ![Screenshot of the App in Dark Mode](screenshotdark.png)
 
+## Update 1.1.2
+- Added GUI for Download Process
+- Added Website
+
 ## Update 1.1.1
 - Fixed an Issue
 - Output View for Command Line Output

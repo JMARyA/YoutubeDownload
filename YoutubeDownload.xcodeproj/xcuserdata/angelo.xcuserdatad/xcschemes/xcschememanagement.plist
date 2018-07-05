@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Download With YoutubeDownload.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>YoutubeDownload.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
