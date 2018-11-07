@@ -13,6 +13,7 @@
 		171EA26420BE19B500EC672B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EA26320BE19B500EC672B /* ViewController.swift */; };
 		171EA26620BE19BC00EC672B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171EA26520BE19BC00EC672B /* Assets.xcassets */; };
 		171EA26920BE19BC00EC672B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171EA26720BE19BC00EC672B /* Main.storyboard */; };
+		177D85EA21933A5400675DAD /* img.dmg in Resources */ = {isa = PBXBuildFile; fileRef = 177D85E921933A5300675DAD /* img.dmg */; };
 		1785557020D1A7C400DCEF84 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1785556E20D1A7C400DCEF84 /* Localizable.strings */; };
 		1785557920D1AA1900DCEF84 /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1785557820D1AA1900DCEF84 /* OutputViewController.swift */; };
 		17A2043920ED63B800726658 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 17A2043820ED63B800726658 /* index.html */; };
@@ -63,7 +64,7 @@
 		171EA26820BE19BC00EC672B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		171EA26A20BE19BC00EC672B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		171EA26B20BE19BC00EC672B /* YoutubeDownload.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YoutubeDownload.entitlements; sourceTree = "<group>"; };
-		1728458520EE3E1B005AAA26 /* img.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = img.dmg; sourceTree = "<group>"; };
+		177D85E921933A5300675DAD /* img.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = img.dmg; sourceTree = "<group>"; };
 		1785556B20D1A3D700DCEF84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		1785556D20D1A49B00DCEF84 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		1785556F20D1A7C400DCEF84 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -147,7 +148,7 @@
 		17A2043720ED63A900726658 /* docs */ = {
 			isa = PBXGroup;
 			children = (
-				1728458520EE3E1B005AAA26 /* img.dmg */,
+				177D85E921933A5300675DAD /* img.dmg */,
 				17A2043A20ED643400726658 /* main.css */,
 				17A2043820ED63B800726658 /* index.html */,
 				17A2043C20ED684600726658 /* features.html */,
@@ -274,6 +275,7 @@
 				1711106D20EE41A600E999A9 /* screenshotdark.png in Resources */,
 				1711106B20EE419800E999A9 /* screen.png in Resources */,
 				1785557020D1A7C400DCEF84 /* Localizable.strings in Resources */,
+				177D85EA21933A5400675DAD /* img.dmg in Resources */,
 				171EA26620BE19BC00EC672B /* Assets.xcassets in Resources */,
 				17A2043B20ED643500726658 /* main.css in Resources */,
 				17A2043920ED63B800726658 /* index.html in Resources */,
@@ -486,7 +488,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arya.YoutubeDownload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -507,7 +509,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arya.YoutubeDownload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

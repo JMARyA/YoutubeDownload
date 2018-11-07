@@ -107,8 +107,11 @@ class OutputViewController: NSViewController {
                         self.progressBar.doubleValue = 100
                         self.progessLabel.stringValue = NSLocalizedString("finished", tableName: nil, bundle: Bundle.main, value: "Finished", comment: "Finished")
                     }
+                    task.terminate()
+                    handle.closeFile()
                 }
-                
+
+                NSLog(line)
                 print("N:\(line)")
             } else {
                 print("Error decoding data: \(pipe.availableData)")

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:YoutubeDownload.xcodeproj">
+      location = "group:/Users/angelo/Documents/Xcode/YoutubeDownload/docs/img.dmg">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
