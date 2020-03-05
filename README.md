@@ -2,6 +2,8 @@
 
 YoutubeDownload is an GUI for the Command Line Application "youtube-dl"
 
+! THIS SOFTWARE IS NO LONGER MAINTAINED !
+
 ## Dependencies
 - youtube-dl <br>
 Install it with `brew install youtube-dl`
