@@ -4,6 +4,13 @@ YoutubeDownload is an GUI for the Command Line Application "youtube-dl"
 
 ! THIS SOFTWARE IS NO LONGER MAINTAINED !
 
+# Building
+Explanation by JanX2:
+All everyone has to do once after cloning is to create a file called "DEVELOPMENT_TEAM.xcconfig" in the "Xcode-config" directory within the project directory with the following build setting:
+'''
+DEVELOPMENT_TEAM = [personal TeamID]
+'''
+
 ## Dependencies
 - youtube-dl <br>
 Install it with `brew install youtube-dl`
